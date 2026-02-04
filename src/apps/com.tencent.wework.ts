@@ -18,8 +18,7 @@ export default defineGkdApp({
             '.msg.controller.ExternalContactMessageListActivity',
             '.msg.controller.MessageListActivity',
           ],
-          matches:
-            '@TextView[text="红包"] < @RelativeLayout[clickable=false]',
+          matches: '@TextView[text="红包"] < @RelativeLayout[clickable=false]',
           snapshotUrls: [
             'https://i.gkd.li/i/14151095',
             'https://i.gkd.li/i/24560890',
@@ -33,8 +32,7 @@ export default defineGkdApp({
           name: '开红包',
           activityIds:
             '.enterprise.redenvelopes.controller.RedEnvelopeCollectorActivity',
-          matches:
-            '@RelativeLayout > @ImageView[clickable=true][index=3]',
+          matches: '@RelativeLayout > @ImageView[clickable=true][index=3]',
           snapshotUrls: [
             'https://i.gkd.li/i/24560289',
             'https://i.gkd.li/i/24588743',

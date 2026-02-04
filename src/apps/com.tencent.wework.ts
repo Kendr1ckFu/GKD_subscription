@@ -34,7 +34,7 @@ export default defineGkdApp({
           activityIds:
             '.enterprise.redenvelopes.controller.RedEnvelopeCollectorActivity',
           matches:
-            'RelativeLayout[childCount=3] > FrameLayout + RelativeLayout[childCount=3] + ImageView[clickable=true][childCount=0][visibleToUser=true]',
+            '@RelativeLayout > @ImageView[clickable=true][index=3]',
           snapshotUrls: [
             'https://i.gkd.li/i/24560289',
             'https://i.gkd.li/i/24588743',

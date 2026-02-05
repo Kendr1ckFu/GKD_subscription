@@ -34,7 +34,8 @@ export default defineGkdApp({
             '.msg.controller.MessageListActivity',
             '.enterprise.redenvelopes.controller.RedEnvelopeCollectorActivity',
           ],
-          matches: '@RelativeLayout[childCount>=4] > @ImageView[clickable=true][childCount=0]',
+          matches:
+            '@RelativeLayout[childCount>=4] > @ImageView[clickable=true][childCount=0]',
           snapshotUrls: [
             'https://i.gkd.li/i/24560289',
             'https://i.gkd.li/i/24588743',

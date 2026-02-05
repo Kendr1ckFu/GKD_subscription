@@ -30,9 +30,11 @@ export default defineGkdApp({
           preKeys: [0],
           key: 1,
           name: '开红包',
-          activityIds:
+          activityIds: [
+            '.msg.controller.MessageListActivity',
             '.enterprise.redenvelopes.controller.RedEnvelopeCollectorActivity',
-          matches: '@RelativeLayout > @ImageView[clickable=true][index=3]',
+          ],
+          matches: '@RelativeLayout[childCount>=4] > @ImageView[clickable=true][childCount=0]',
           snapshotUrls: [
             'https://i.gkd.li/i/24560289',
             'https://i.gkd.li/i/24588743',

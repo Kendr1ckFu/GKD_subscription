@@ -28,7 +28,7 @@ export default defineGkdApp({
           excludeSnapshotUrls: [
             'https://i.gkd.li/i/25115499',
             'https://i.gkd.li/i/14151131',
-          ] // 已领取的红包、自己的红包
+          ], // 已领取的红包、自己的红包
         },
         {
           preKeys: [0],

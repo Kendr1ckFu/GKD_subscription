@@ -20,7 +20,7 @@ export default defineGkdApp({
           ],
           matches: '@TextView[text="红包"] < @RelativeLayout[clickable=false]',
           snapshotUrls: [
-            'https://i.gkd.li/i/25115534'
+            'https://i.gkd.li/i/25115534',
             'https://i.gkd.li/i/14151095',
             'https://i.gkd.li/i/24560890',
             'https://i.gkd.li/i/24577241',

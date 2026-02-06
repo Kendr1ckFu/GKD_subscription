@@ -20,11 +20,15 @@ export default defineGkdApp({
           ],
           matches: '@TextView[text="红包"] < @RelativeLayout[clickable=false]',
           snapshotUrls: [
+            'https://i.gkd.li/i/25115534'
             'https://i.gkd.li/i/14151095',
             'https://i.gkd.li/i/24560890',
             'https://i.gkd.li/i/24577241',
           ],
-          excludeSnapshotUrls: 'https://i.gkd.li/i/14151131', // 已领取的红包、自己的红包
+          excludeSnapshotUrls: [
+            'https://i.gkd.li/i/25115499',
+            'https://i.gkd.li/i/14151131',
+          ] // 已领取的红包、自己的红包
         },
         {
           preKeys: [0],
@@ -37,6 +41,7 @@ export default defineGkdApp({
           matches:
             '@RelativeLayout[childCount>=4] > @ImageView[clickable=true][childCount=0]',
           snapshotUrls: [
+            'https://i.gkd.li/i/25115522',
             'https://i.gkd.li/i/24560289',
             'https://i.gkd.li/i/24588743',
           ],

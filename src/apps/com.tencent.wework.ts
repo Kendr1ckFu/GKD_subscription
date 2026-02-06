@@ -18,7 +18,8 @@ export default defineGkdApp({
             '.msg.controller.ExternalContactMessageListActivity',
             '.msg.controller.MessageListActivity',
           ],
-          matches: '@TextView[text="红包"] < RelativeLayout - LinearLayout > LinearLayout[childCount=1]',
+          matches:
+            '@TextView[text="红包"] < RelativeLayout - LinearLayout > LinearLayout[childCount=1]',
           snapshotUrls: [
             'https://i.gkd.li/i/25115534',
             'https://i.gkd.li/i/14151095',
